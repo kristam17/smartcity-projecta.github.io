@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+		    "Traffic congestion is a major challenge in urban transportation.",
+		    "Intersections play an important role in traffic flow and delays.",
+		    "SUMO allows traffic conditions to be simulated and analyzed.",
+		    "Traffic signal optimization can improve intersection efficiency."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+		    "Traffic congestion causes delays at busy intersections.",
+		    "Inefficient signal timing can increase vehicle queues.",
+		    "Traffic performance varies under different vehicle conditions.",
+		    "Evaluating signal changes in real traffic is challenging."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+		    "Model Finch Avenue East and Tapscott Road using SUMO.",
+		    "Compare baseline traffic with autonomous vehicle scenarios.",
+		    "Evaluate traffic signal timing changes from 27 s to 18 s.",
+		    "Analyze traffic performance using delays, queues, and travel times."
     ]
   },
 
