@@ -124,38 +124,38 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Road Network Development (SUMO)",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+				  { text: "Model Finch Avenue East and Tapscott Road intersection in SUMO NetEdit." },
+          { text: "Define road lanes, turning movements, and intersection connections." },
+          { text: "Configure the road network and traffic signal control system." }
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: Traffic Simulation Setup",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+          { text: "Define vehicle routes, traffic demand, and turning movements." },
+          { text: "Configure baseline traffic signals with a 27-second green phase." },
+          { text: "Run the baseline simulation to evaluate existing traffic conditions." }
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: Traffic Scenario Development",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+				  { text: "Develop scenarios comparing conventional and autonomous vehicles." },
+          { text: "Modify the traffic signal green phase from 27 to 18 seconds." },
+          { text: "Run simulations to evaluate the effects of signal timing changes." }
         ],
         image: "assets/img/image4.jpg"
       },
       {
-        title: "Module 4: Results & Communication",
+        title: "Module 4: Results & Performance Evaluation",
         bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
+          { text: "Compare baseline, autonomous vehicle, and modified signal scenarios." },
+          { text: "Evaluate traffic performance using vehicle delays, queue lengths, and travel times." },
+          { text: "Summarize results and identify potential improvements in intersection efficiency." }
         ],
         image: "assets/img/image5.jpg"
       }
@@ -165,28 +165,28 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				 "SUMO traffic simulation results comparing baseline traffic, autonomous vehicles, and modified signal timing at Finch Avenue East and Tapscott Road.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1 – Baseline Traffic Simulation",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Baseline traffic simulation results showing intersection performance."
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 2 – Modified Traffic Signal Timing",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Traffic simulation results showing the effects of modified signal timing."
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"The baseline scenario uses a 27-second green phase to evaluate existing traffic conditions.",
+        		"The autonomous vehicle scenario produced results similar to the baseline.",
+		        "Reducing the green phase from 27 to 18 seconds showed a small improvement in traffic performance.",
+		        "The modified signal timing demonstrated the potential to improve intersection efficiency.",
+		        "Further improvements could involve adjusting signal timing based on traffic demand and vehicle movement."
 			]
 		},
 
