@@ -196,7 +196,7 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Krista McGhie", role: "Rail Scheduling & Signaling" }
     ],
 
     acknowledgments: [
