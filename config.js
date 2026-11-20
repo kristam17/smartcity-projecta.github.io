@@ -98,23 +98,23 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: Road Network Development (SUMO)",
+				text: "Create the Finch Avenue East and Tapscott Road intersection using SUMO NetEdit.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Traffic Simulation Setup",
+				text: "Define vehicle routes, traffic flows, and signal timings for the baseline scenario.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Scenario Development",
+				text: "Simulate baseline traffic, autonomous vehicles, and an optimized 18-second signal timing.",
         image: "assets/img/image4.jpg"
       },
       {
-				title: "Step 4: Results & Communication (Figures + Showcase Website)",
-				text: "Summarize results using figures, KPIs, and the showcase website.",
+				title: "Step 4: Performance Evaluation",
+				text:  "Compare traffic scenarios using vehicle delays, queue lengths, and travel times.",
         image: "assets/img/image5.jpg"
       }
     ]
