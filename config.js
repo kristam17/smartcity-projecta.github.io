@@ -196,7 +196,7 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Krista McGhie", role: "Rail Scheduling & Signaling" }
+      { name: "Krista McGhie", role: "Traffic Simulation & Analysis" }
     ],
 
     acknowledgments: [
