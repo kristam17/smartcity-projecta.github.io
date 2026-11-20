@@ -207,6 +207,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/USERNAME/REPO"
+    repoUrl: "https://github.com/smartcity-projecta.github.io/"
   }
 };
