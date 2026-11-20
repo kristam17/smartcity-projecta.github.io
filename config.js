@@ -38,22 +38,22 @@ window.SITE_CONFIG = {
 	    dividerText: "#FFFFFF"
 	},
 	
-	footer: {
-	    footerBg: "#111111",
-	    footerText: "#FFFFFF",
-	    footerBorder: "#B91C1C"
-	},
+	
+  footer: {
+    footerBg: "#111111",
+    footerText: "#FFFFFF",
+    footerBorder: "#B91C1C",
 
-	  homeLinkText: "RoadwayVR",
-	
-	  templateCredit:
-	    "This academic showcase template was developed by RoadwayVR.",
-	
-	  templateCreditLinkText:
-	    "Learn more at RoadwayVR.com",
-	
-	  templateCreditUrl:
-	    "https://roadwayvr.com"
+    homeLinkText: "RoadwayVR",
+
+    templateCredit:
+      "This academic showcase template was developed by RoadwayVR.",
+
+    templateCreditLinkText:
+      "Learn more at RoadwayVR.com",
+
+    templateCreditUrl:
+      "https://roadwayvr.com"
   },
 
   intro: {
