@@ -27,23 +27,23 @@ window.SITE_CONFIG = {
       "Academic Project · Educational Use Only · Not Official City Work"
   },
 
-  theme: {
-    heroBg: "#111111",
-    heroText: "#ffffff",
-    pageBg: "#f8fafc",
-    accent: "#7c3aed"
-  },
-
-  dividers: {
-    dividerBg: "#f9f9f9",
-    dividerText: "#ffffff"
-  },
-
-  footer: {
-	  footerBg: "#111111",
-	  footerText: "#ffffff",
-	  footerBorder: "#222222",
+	theme: {
+	    heroBg: "#B91C1C",
+	    heroText: "#FFFFFF",
+	    pageBg: "#F8F8F8",
+	    accent: "#EF4444"
+	},
+	dividers: {
+	    dividerBg: "#991B1B",
+	    dividerText: "#FFFFFF"
+	},
 	
+	footer: {
+	    footerBg: "#111111",
+	    footerText: "#FFFFFF",
+	    footerBorder: "#B91C1C"
+	},
+
 	  homeLinkText: "RoadwayVR",
 	
 	  templateCredit:
